@@ -15,10 +15,14 @@ These decision record use [Michael Nygard's LADR format](http://thinkrelevance.c
 * [MSD-02 Use main and dev branches](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-02-Use-main-and-dev-branches.md)
 * [MSD-03 Use event storming instead of formal ddd](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-03-Use-event-storming-instead-of-formal-ddd.md)
 * [MSD-04 Database for service](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-04-Database-for-service.md)
+* [MSD-05 OpenApi spec to be manual](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-05-OpenApi-spec-to-be-manual.md)
 
 ## Infrastructure
 
 * [INF-01 Neo4j database](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-01-Neo4j-database.md)
+* [INF-02 Kubernetes cluster](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-02-Kubernetes-cluster.md)
+* [INF-03 Kubernetes external secrets](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-03-Kubernetes-external-secrets.md)
+* [INF-04 API gateway and Service Mesh](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-04-API-gateway-and-service-mesh.md)
 
 ## Acknowledgments
 
