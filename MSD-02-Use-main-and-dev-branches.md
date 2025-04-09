@@ -12,15 +12,20 @@ I want to separate coding process from the release process for my microservices.
 
 Only for the repo about microservices:
 
-- Use `main` branch for every process related to release.
-- Use `dev` branch for every process related to the coding aspect.
+- Use only the `main` branch.
+- Use tags for marking a branch version ready to be deployed.
+- Tags should starts with `v` to mark them as ready.
 
-Ideally this would separate the linting, testing, formatting on the `dev` branch, and the release, gitOps on the `main` branch.
+Originally thought about `main` and `dev` branches, but as I am alone in the coding, this don't make much sense after all.
 
-Don't push directly in the `main` branch, but merge from `dev` to  `main`.
+It's hard to have multiple feature branch at the same time, I think.
+
+This means that a tag should just be enough, althoug this is not the best practice.
+
+Linting and testing should be linked to commits, whereas building and pushing the image should be linked to tags push.
 
 ## Consequences
 
-Since I already created a bunch of microservices repos without this pattern, I would have to create the new branch `dev`.
+I should implement few workflows, both for linting/tests and for build/push.
 
-Every microservices repo would have to implement a policy that block pushes on the `main` branch.
+However, since this should be almost the same, I can setup a "skeleton" repo to be cloned and to this just once.
