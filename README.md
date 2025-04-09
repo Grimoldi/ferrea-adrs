@@ -6,23 +6,23 @@ These decision record use [Michael Nygard's LADR format](http://thinkrelevance.c
 
 ## Operating model
 
-* [OPM-01 Decision Tracking](https://github.com/Grimoldi/ferrea-adrs/blob/main/OPM-01-Decision-tracking.md)
-* [OPM-02 Bootstraping envinroment](https://github.com/Grimoldi/ferrea-adrs/blob/main/OPM-02-Bootstrap-environment.md)
+* [OPM-01 Decision Tracking](./OPM-01-Decision-tracking.md)
+* [OPM-02 Bootstraping envinroment](./OPM-02-Bootstrap-environment.md)
 
 ## Microservices Design
 
-* [MSD-01 Use one repo per microservice](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-01-Use-one-repo-per-microservice.md)
-* [MSD-02 Use main and dev branches](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-02-Use-main-and-dev-branches.md)
-* [MSD-03 Use event storming instead of formal ddd](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-03-Use-event-storming-instead-of-formal-ddd.md)
-* [MSD-04 Database for service](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-04-Database-for-service.md)
-* [MSD-05 OpenApi spec to be manual](https://github.com/Grimoldi/ferrea-adrs/blob/main/MSD-05-OpenApi-spec-to-be-manual.md)
+* [MSD-01 Use one repo per microservice](./MSD-01-Use-one-repo-per-microservice.md)
+* [MSD-02 Use main and dev branches](./MSD-02-Use-only-one-branch-and-release-on-tags.md)
+* [MSD-03 Use event storming instead of formal ddd](./MSD-03-Use-event-storming-instead-of-formal-ddd.md)
+* [MSD-04 Database for service](./MSD-04-Database-for-service.md)
+* [MSD-05 OpenApi spec to be manual](./MSD-05-OpenApi-spec-to-be-manual.md)
 
 ## Infrastructure
 
-* [INF-01 Neo4j database](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-01-Neo4j-database.md)
-* [INF-02 Kubernetes cluster](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-02-Kubernetes-cluster.md)
-* [INF-03 Kubernetes external secrets](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-03-Kubernetes-external-secrets.md)
-* [INF-04 API gateway and Service Mesh](https://github.com/Grimoldi/ferrea-adrs/blob/main/INF-04-API-gateway-and-service-mesh.md)
+* [INF-01 Neo4j database](./INF-01-Neo4j-database.md)
+* [INF-02 Kubernetes cluster](./INF-02-Kubernetes-cluster.md)
+* [INF-03 Kubernetes external secrets](./INF-03-Kubernetes-external-secrets.md)
+* [INF-04 API gateway and Service Mesh](./INF-04-API-gateway-and-service-mesh.md)
 
 ## Acknowledgments
 

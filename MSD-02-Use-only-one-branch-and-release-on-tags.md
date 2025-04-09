@@ -1,4 +1,4 @@
-# MSD-02: Use Main and Dev branches
+# MSD-02: Use only one branch and release on tags
 
 ## Status
 
