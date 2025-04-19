@@ -23,4 +23,8 @@ The separation would be met with the following two methods (inspired by [this SO
 
 The design takes more importance, since aggregation now has a critical role in the separation of duty between microservices.
 
-Each microservice will have a specific user, with its ACL to implement.
+Each microservice should have a specific user, with its ACL to implement.
+
+However, since at the moment I'm running Aura free, there's only a single user.
+
+As a POC/Hobby project with will be fine.

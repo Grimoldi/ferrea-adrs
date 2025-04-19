@@ -23,6 +23,7 @@ These decision record use [Michael Nygard's LADR format](http://thinkrelevance.c
 * [INF-02 Kubernetes cluster](./INF-02-Kubernetes-cluster.md)
 * [INF-03 Kubernetes external secrets](./INF-03-Kubernetes-external-secrets.md)
 * [INF-04 API gateway and Service Mesh](./INF-04-API-gateway-and-service-mesh.md)
+* [INF-05: Observability](./INF-05-Observability.md)
 
 ## Acknowledgments
 
