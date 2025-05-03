@@ -14,7 +14,7 @@ Only for the repo about microservices:
 
 - Use only the `main` branch.
 - Use tags for marking a branch version ready to be deployed.
-- Tags should starts with `v` to mark them as ready.
+- Tags should follow [semver versioning](https://semver.org/#is-v123-a-semantic-version), so avoid the `v`, previously forseen.
 
 Originally thought about `main` and `dev` branches, but as I am alone in the coding, this don't make much sense after all.
 
